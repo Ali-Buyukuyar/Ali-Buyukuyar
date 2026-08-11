@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="590" viewBox="0 0 540 590" role="img" aria-label="Ali Büyükuyar developer profile">
+  <style>
+    .bg { fill:#0d1117 } .frame { fill:none; stroke:#30363d } .prompt { fill:#58a6ff; font:700 16px monospace }
+    .label { fill:#8b949e; font:14px monospace } .value { fill:#c9d1d9; font:14px monospace }
+    .green { fill:#3fb950; font:14px monospace }
+  </style>
+  <rect class="bg" width="540" height="590" rx="12"/>
+  <rect class="frame" x="10" y="10" width="520" height="570" rx="8"/>
+  <text class="prompt" x="28" y="44">ali@github:~$ neofetch</text>
+  <text class="value" x="28" y="83">───────────  ─────────────────────────</text>
+  <text class="label" x="28" y="119">Name</text><text class="value" x="170" y="119">Ali Büyükuyar</text>
+  <text class="label" x="28" y="151">Role</text><text class="value" x="170" y="151">Software Developer</text>
+  <text class="label" x="28" y="183">Focus</text><text class="value" x="170" y="183">Data &amp; Reporting Analyst</text>
+  <text class="label" x="28" y="215">Location</text><text class="value" x="170" y="215">Türkiye</text>
+  <text class="label" x="28" y="257">Stack</text><text class="green" x="170" y="257">.NET · Python · SQL</text>
+  <text class="label" x="28" y="289">Analytics</text><text class="green" x="170" y="289">Power BI · Excel · Reporting</text>
+  <text class="label" x="28" y="321">Web</text><text class="green" x="170" y="321">TypeScript · HTML/CSS</text>
+  <text class="value" x="28" y="365">───────────  ─────────────────────────</text>
+  <text class="prompt" x="28" y="407">$ mission</text>
+  <text class="value" x="28" y="443">Build reliable software, turn raw data</text>
+  <text class="value" x="28" y="469">into useful reporting, and make decisions</text>
+  <text class="value" x="28" y="495">clearer for the people using it.</text>
+  <text class="prompt" x="28" y="545">$ _</text>
+</svg>
