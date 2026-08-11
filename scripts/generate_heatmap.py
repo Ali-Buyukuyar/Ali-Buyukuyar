@@ -29,11 +29,8 @@ def main() -> None:
 
     width = LEFT * 2 + WEEKS * (CELL + GAP)
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="170" viewBox="0 0 {width} 170" role="img" aria-label="Animated Matrix-style contribution graph for {html.escape(args.username)}">
-<style>
-.bg {{ fill:#0d1117 }} text {{ font:14px monospace; fill:#c9d1d9 }} .accent {{ fill:#58a6ff; font-weight:bold }}
-</style>
+<style>.bg {{ fill:#0d1117 }} text {{ font:14px monospace; fill:#c9d1d9 }}</style>
 <rect class="bg" width="100%" height="100%" rx="12"/>
-<text class="accent" x="22" y="28">ali@github:~$ ./matrix-contributions.sh</text>
 <text x="22" y="153">Less</text>{''.join(cells)}<text x="{width - 52}" y="153">More</text>
 </svg>'''
     Path(__file__).parents[1].joinpath("assets", "contribution-heatmap.svg").write_text(svg, encoding="utf-8")
