@@ -1,8 +1,6 @@
 <div align="center">
 
-```text
-ali@github:~$ ./matrix-contributions.sh
-```
+
 
 <img src="./assets/contribution-heatmap.svg" alt="Animated Matrix contribution grid" width="100%" />
 
