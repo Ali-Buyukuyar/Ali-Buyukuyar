@@ -1,9 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="786" height="170" viewBox="0 0 786 170" role="img" aria-label="Animated Matrix-style contribution graph for Ali-Buyukuyar">
-<style>
-.bg { fill:#0d1117 } text { font:14px monospace; fill:#c9d1d9 } .accent { fill:#58a6ff; font-weight:bold }
-</style>
+<style>.bg { fill:#0d1117 } text { font:14px monospace; fill:#c9d1d9 }</style>
 <rect class="bg" width="100%" height="100%" rx="12"/>
-<text class="accent" x="22" y="28">ali@github:~$ ./matrix-contributions.sh</text>
 <text x="22" y="153">Less</text><rect x="22" y="48" width="11" height="11" rx="2" fill="#0e4429">
   <animate attributeName="fill" values="#0e4429;#006d32;#39d353;#0e4429" dur="5.4s" begin="0.0s" repeatCount="indefinite"/>
   <animate attributeName="opacity" values=".35;1;1;.35" dur="5.4s" begin="0.0s" repeatCount="indefinite"/>
