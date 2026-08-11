@@ -1,14 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="420" height="590" viewBox="0 0 420 590" role="img" aria-label="Animated ASCII portrait placeholder">
-<style>.bg{fill:#0d1117}.f{fill:none;stroke:#30363d}.t{fill:#58a6ff;font:700 15px monospace}.a{fill:#c9d1d9;font:10px monospace;opacity:0;animation:i .4s ease-out forwards}@keyframes i{to{opacity:1}}</style>
-<rect class="bg" width="420" height="590" rx="12"/><rect class="f" x="10" y="10" width="400" height="570" rx="8"/><text class="t" x="20" y="28">ali@github:~$ ./portrait --ascii</text>
-<text class="a" style="animation-delay:0ms" x="54" y="115">...........:::::--==++**##**++==--:::::...........</text>
-<text class="a" style="animation-delay:120ms" x="54" y="135">.......::::--==++**###%%%%###**++==--::::.......</text>
-<text class="a" style="animation-delay:240ms" x="54" y="155">.....:::--==+**##%%%%@@@@%%%%##**+==--:::.....</text>
-<text class="a" style="animation-delay:360ms" x="54" y="175">....::--=+*##%%%@@@@@@@@@@@@%%%##*+=--::....</text>
-<text class="a" style="animation-delay:480ms" x="54" y="195">...::-=+*##%%@@@   ALI B.   @@@%%##*+=-::...</text>
-<text class="a" style="animation-delay:600ms" x="54" y="215">...::-=+*##%%@@@@@@@@@@@@@@@@@@%%##*+=-::...</text>
-<text class="a" style="animation-delay:720ms" x="54" y="235">.....:::--==+**##%%%%@@@@%%%%##**+==--:::.....</text>
-<text class="a" style="animation-delay:840ms" x="54" y="255">.......::::--==++**###%%%%###**++==--::::.......</text>
-<text class="a" style="animation-delay:960ms" x="54" y="275">...........:::::--==++**##**++==--:::::...........</text>
-<text class="t" x="98" y="355">[ generating from avatar daily ]</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="590" viewBox="0 0 420 590" role="img" aria-label="Animated ASCII portrait of Ali-Buyukuyar">
+<style>
+.bg { fill:#0d1117 } .frame { fill:none; stroke:#30363d } .title { fill:#58a6ff; font:700 15px monospace }
+.row { fill:#c9d1d9; font:10px monospace; opacity:0; animation:appear .45s ease-out forwards; }
+@keyframes appear { to { opacity:1 } }
+</style>
+<rect class="bg" width="420" height="590" rx="12"/><rect class="frame" x="10" y="10" width="400" height="570" rx="8"/>
+<text class="title" x="20" y="28">ali@github:~$ ./portrait --ascii</text>
+<text x="20" y="38" class="row" style="--delay:0ms">                                                </text>
+<text x="20" y="49" class="row" style="--delay:55ms">                                                </text>
+<text x="20" y="60" class="row" style="--delay:110ms">                                                </text>
+<text x="20" y="71" class="row" style="--delay:165ms">                                                </text>
+<text x="20" y="82" class="row" style="--delay:220ms">                                                </text>
+<text x="20" y="93" class="row" style="--delay:275ms">                                                </text>
+<text x="20" y="104" class="row" style="--delay:330ms">                                                </text>
+<text x="20" y="115" class="row" style="--delay:385ms">                                                </text>
+<text x="20" y="126" class="row" style="--delay:440ms">                                                </text>
+<text x="20" y="137" class="row" style="--delay:495ms">                          ...                   </text>
+<text x="20" y="148" class="row" style="--delay:550ms">              ....      :---:  :---:            </text>
+<text x="20" y="159" class="row" style="--delay:605ms">           :------.     :---:  ----:            </text>
+<text x="20" y="170" class="row" style="--delay:660ms">           :------:... .----:  ----:            </text>
+<text x="20" y="181" class="row" style="--delay:715ms">          .-------:.....----: .----.            </text>
+<text x="20" y="192" class="row" style="--delay:770ms">          .-------:.....----:..::::.            </text>
+<text x="20" y="203" class="row" style="--delay:825ms">          :-------:.....----...... .......      </text>
+<text x="20" y="214" class="row" style="--delay:880ms">          ----:----.....----...::::........ ... </text>
+<text x="20" y="225" class="row" style="--delay:935ms">         .---::----....:----..:----........     </text>
+<text x="20" y="236" class="row" style="--delay:990ms">         :---::----....:----..:----........     </text>
+<text x="20" y="247" class="row" style="--delay:1045ms">         ----::----:...:---:..:---:........     </text>
+<text x="20" y="258" class="row" style="--delay:1100ms">        .----..----:...:---:..:---:........     </text>
+<text x="20" y="269" class="row" style="--delay:1155ms">        :---:..----:...:---:..:---:.......      </text>
+<text x="20" y="280" class="row" style="--delay:1210ms">        ----:::----:...:---:..:---:.......      </text>
+<text x="20" y="291" class="row" style="--delay:1265ms">       .------------...----:..----:.......      </text>
+<text x="20" y="302" class="row" style="--delay:1320ms">       :------------...----:..----: ......      </text>
+<text x="20" y="313" class="row" style="--delay:1375ms">       -------------...----:..----:.......      </text>
+<text x="20" y="324" class="row" style="--delay:1430ms">      .----:::::----:..----:..----........      </text>
+<text x="20" y="335" class="row" style="--delay:1485ms">      :----....:----:..----. .----........      </text>
+<text x="20" y="346" class="row" style="--delay:1540ms">      :---:.....----: .----. .----.......       </text>
+<text x="20" y="357" class="row" style="--delay:1595ms">     .----:     ----: .::::   :..:   ....       </text>
+<text x="20" y="368" class="row" style="--delay:1650ms">     .:.....     .:            .: *%= ...       </text>
+<text x="20" y="379" class="row" style="--delay:1705ms">       :. . ..  .. ...:.: ---=.##:@%@ ...       </text>
+<text x="20" y="390" class="row" style="--delay:1760ms">      -++-=.=:==:=.=-#::+.*:@+-@@=@@# ...       </text>
+<text x="20" y="401" class="row" style="--delay:1815ms">      *@%=*.% @=-#.%#@*+#=@ @:%@@%@@= ...       </text>
+<text x="20" y="412" class="row" style="--delay:1870ms">      @@@#@%@ @-:@@#@+@=@@= @.@:*#==-   .       </text>
+<text x="20" y="423" class="row" style="--delay:1925ms">      *%+ *#. =  -= .                  .. .     </text>
+<text x="20" y="434" class="row" style="--delay:1980ms">                                                </text>
+<text x="20" y="445" class="row" style="--delay:2035ms">                                                </text>
+<text x="20" y="456" class="row" style="--delay:2090ms">                                                </text>
+<text x="20" y="467" class="row" style="--delay:2145ms">                                                </text>
+<text x="20" y="478" class="row" style="--delay:2200ms">                                                </text>
+<text x="20" y="489" class="row" style="--delay:2255ms">                                                </text>
+<text x="20" y="500" class="row" style="--delay:2310ms">                                                </text>
+<text x="20" y="511" class="row" style="--delay:2365ms">                                                </text>
+<text x="20" y="522" class="row" style="--delay:2420ms">                                                </text>
+<text x="20" y="533" class="row" style="--delay:2475ms">                                                </text>
+<text x="20" y="544" class="row" style="--delay:2530ms">                                                </text>
+<text x="20" y="555" class="row" style="--delay:2585ms">                                                </text>
 </svg>
